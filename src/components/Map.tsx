@@ -32,7 +32,7 @@ const conferenceIcon = createIcon('#10b981');
 const airportIcon = createIcon('#f59e0b');
 const dangerIcon = createIcon('#ef4444');
 const foodIcon = createIcon('#db2777');
-const neutralIcon = createIcon('#94a3b8');
+const museumIcon = createIcon('#6366f1');
 
 export interface LocationItem {
     name: string;
@@ -49,10 +49,12 @@ export default function Map({ locations }: { locations: LocationItem[] }) {
     const getIcon = (type: string) => {
         switch (type) {
             case 'hotel': return hotelIcon;
+            case 'conference':
             case 'clinic': return conferenceIcon;
             case 'airport': return airportIcon;
             case 'danger': return dangerIcon;
             case 'food': return foodIcon;
+            case 'museum': return museumIcon;
             default: return neutralIcon;
         }
     }

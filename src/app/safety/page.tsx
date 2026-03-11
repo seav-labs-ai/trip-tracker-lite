@@ -22,9 +22,9 @@ export default function SafetyPage() {
                     Paris is generally safe for tourists, but it&apos;s best to avoid these neighborhoods completely, especially at night:
                 </p>
                 <ul style={{ fontSize: '0.9rem', color: 'var(--foreground)', margin: 0, paddingLeft: '1.2rem' }}>
-                    <li><strong>Northern Suburbs:</strong> Located right next to Casco Viejo boundary. Do not wander past the historic limits into this area.</li>
-                    <li><strong>Calidonia / Curundu:</strong> Often adjacent to major streets but has higher crime rates. stick to main avenues.</li>
-                    <li><strong>San Miguelito:</strong> Further out, no tourist reasons to visit.</li>
+                    <li><strong>Northern Suburbs (Saint-Denis):</strong> Use caution around certain transit hubs at night. Generally fine during the day but stay alert.</li>
+                    <li><strong>Certain RER Areas:</strong> Be mindful of your belongings on the B line late at night.</li>
+                    <li><strong>Crowded Tourist Spots:</strong> Watch for pickpockets near the Eiffel Tower, Sacré-Cœur, and the Louvre. Keep bags closed.</li>
                 </ul>
             </motion.div>
 
@@ -33,10 +33,10 @@ export default function SafetyPage() {
                     <ShieldCheck size={20} /> General Tips
                 </h3>
                 <ul style={{ fontSize: '0.9rem', color: 'var(--text-muted)', margin: 0, paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                    <li>Use Uber for transportation. It is cheap, safe, and avoids taxi haggling or scams.</li>
-                    <li>Drinking water is generally safe from the tap in Paris, but bottled water is recommended for kids/sensitive stomachs.</li>
-                    <li>The sun is intense. Keep umbrellas, sunscreen, and water handy.</li>
-                    <li>English is spoken in major hubs, but having Google Translate offline Spanish is very helpful.</li>
+                    <li>Public transport (Metro/RER) is the most efficient way to get around. Use the Bonjour RATP app.</li>
+                    <li>Tap water in Paris is high quality and perfectly safe to drink.</li>
+                    <li>Be wary of "helpful" strangers at ticket machines or tourist hubs.</li>
+                    <li>English is widely spoken in tourist areas, but learning basic French phrases (Bonjour, Merci, S'il vous plaît) is highly appreciated.</li>
                 </ul>
             </motion.div>
 
@@ -48,8 +48,8 @@ export default function SafetyPage() {
                             <HeartPulse color="var(--danger)" />
                         </div>
                         <div>
-                            <div style={{ fontWeight: 600 }}>Emergency (Police/Ambulance)</div>
-                            <div style={{ fontSize: '1.2rem', color: 'var(--danger)', fontWeight: 'bold' }}>911</div>
+                            <div style={{ fontWeight: 600 }}>Emergency (EU Universal)</div>
+                            <div style={{ fontSize: '1.2rem', color: 'var(--danger)', fontWeight: 'bold' }}>112</div>
                         </div>
                     </div>
                     <Phone color="var(--text-muted)" />
